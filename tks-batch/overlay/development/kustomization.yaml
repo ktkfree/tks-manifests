@@ -6,4 +6,4 @@ resources:
 - ../../base
 images:
 - name: docker.io/sktcloud/tks-batch
-  newTag: e56ed59a3aa2da5eb3575b4417734cf405f796e3
+  newTag: ce52dd747f2f4a2f588f846258e4d948411e3ad1
