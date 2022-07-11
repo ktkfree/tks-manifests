@@ -1,10 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 patchesStrategicMerge:
-- deployment.yaml
+- patch.yaml
 resources:
 - ../../base
 images:
-- name: sktcloud/tks-cluster-lcm
-  newTag: newtag
-
+- name: docker.io/sktcloud/tks-cluster-lcm
+  newTag: 67bccb67e752ff512bef1b9c012166d6bf7d5e53

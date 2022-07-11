@@ -10,8 +10,9 @@ spec:
   project: tks-apis
   source:
     repoURL: 'https://github.com/ktkfree/tks-manifests'
-    path: development/tks-cluster-lcm/manifests
+    path: tks-cluster-lcm/overlay/development
     targetRevision: HEAD
   syncPolicy:
     automated: {}
+  revisionHistoryLimit: 3
 
