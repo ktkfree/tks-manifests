@@ -5,5 +5,5 @@ patchesStrategicMerge:
 resources:
 - ../../base
 images:
-- name: docker.io/sktcloud/tks-contract
-  newTag: 2f32cbd37be0e94e9b340d07e3199c188c6e0578
+- name: docker.io/sktcloud/tks-batch
+  newTag: 67bccb67e752ff512bef1b9c012166d6bf7d5e53
