@@ -7,3 +7,5 @@ resources:
 images:
 - name: docker.io/sktcloud/tks-contract
   newTag: newtag
+- name: sktcloud/tks-contract
+  newTag: 0cf223bed5db5acdc1b8effd4723a1c3655bdc9b
