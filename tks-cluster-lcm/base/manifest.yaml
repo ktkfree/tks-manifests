@@ -64,7 +64,7 @@ spec:
         - name: tks-cluster-lcm
           securityContext:
             {}
-          image: "docker.io/sktcloud/tks-cluster-lcm:48fc30510dad76e2b5667f7dd98ec367825288cf"
+          image: "docker.io/sktcloud/tks-cluster-lcm:f23cfc43cea5a3b35ddf8f18af52e89bb51e41d8"
           imagePullPolicy: Always
           ports:
             - name: tks-cluster-lcm
