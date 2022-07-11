@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: tks-contract
+  namespace: tks
+spec:
+  destination:
+    namespace: tks
+    server: https://kubernetes.default.svc 
+  project: tks-apis
+  source:
+    repoURL: 'https://github.com/ktkfree/tks-manifests'
+    path: tks-contract/overlay/development
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}
+  revisionHistoryLimit: 3
+
