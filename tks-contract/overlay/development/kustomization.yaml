@@ -6,6 +6,6 @@ resources:
 - ../../base
 images:
 - name: docker.io/sktcloud/tks-contract
-  newTag: newtag
+  newTag: 2f32cbd37be0e94e9b340d07e3199c188c6e0578
 - name: sktcloud/tks-contract
   newTag: 0cf223bed5db5acdc1b8effd4723a1c3655bdc9b
