@@ -6,4 +6,4 @@ resources:
 - ../../base
 images:
 - name: docker.io/sktcloud/tks-info
-  newTag: 67bccb67e752ff512bef1b9c012166d6bf7d5e53
+  newTag: 64e441ffcb83b1a05fa7f9c3cbbc713f2212d800
