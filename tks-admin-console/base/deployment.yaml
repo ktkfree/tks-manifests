@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tks-admin-console
+  namespace: tks
+  labels:
+    app: tks-admin-console
+spec:
+  selector:
+    matchLabels:
+      app: tks-admin-console
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tks-admin-console
+    spec:
+      containers:
+      - name: app
+        image: docker.io/sktcloud/tks-admin-console
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080

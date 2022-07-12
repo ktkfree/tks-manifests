@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base
+images:
+- name: docker.io/sktcloud/tks-admin-console
+  newTag: fda3cebe9bc6227dabc43f1d5dbca0112925d8f9
