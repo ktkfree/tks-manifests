@@ -1,4 +1,4 @@
-# argocd app create tks-admin-console --repo https://github.com/ktkfree/tks-manifests --path tks-admin-console/overlay/development --dest-namespace tks --dest-server https://kubernetes.default.svc --revision-history-limit 3 --sync-policy automated --project tks-apis
+# argocd app create tks-admin-console --repo https://github.com/openinfradev/tks-manifests --path tks-admin-console/overlay/development --dest-namespace tks --dest-server https://kubernetes.default.svc --revision-history-limit 3 --sync-policy automated --project tks-apis
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: tks-apis
   source:
-    repoURL: 'https://github.com/ktkfree/tks-manifests'
+    repoURL: 'https://github.com/openinfradev/tks-manifests'
     path: tks-admin-console/overlay/development
     targetRevision: HEAD
   syncPolicy:
